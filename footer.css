@@ -1,0 +1,22 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: black;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}

@@ -1,0 +1,45 @@
+
+html {
+  text-align: center;
+}
+
+body {
+  background:  #EDF1FF;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around; 
+    width: 80%;
+    background-color: black;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .flex-container>div {
+    background-color: #333;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    flex: 0 1 25%;
+    text-align: center;
+    line-height: 75px;  
+    font-size: 30px; 
+  }
+  
+  @media (max-width: 800px) {
+     .flex-container>div {
+      max-width: 75%;
+      flex: 0 1 30%;
+      }
+  }
+  
+  @media (max-width: 600px) {
+      .flex-container>div {
+         max-width: 100%;
+         flex: 0 1 100%;
+      }
+  }
